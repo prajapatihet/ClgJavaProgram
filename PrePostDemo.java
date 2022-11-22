@@ -1,5 +1,3 @@
-package Own;
-
 public class PrePostDemo {
     public static void main(String[] args) {
         int i = 3;
@@ -12,3 +10,4 @@ public class PrePostDemo {
         System.out.println(i);
     }
 }
+

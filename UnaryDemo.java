@@ -1,5 +1,3 @@
-package Own;
-
 public class UnaryDemo {
     public static void main(String[] args) {
         int result = 1;
