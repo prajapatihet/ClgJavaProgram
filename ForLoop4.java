@@ -6,15 +6,16 @@ public class ForLoop4 {
         int no = sc.nextInt();
         for(int i=1;i<=no;i++) {
             for(int space=i;space<=no;space++) {
-                System.out.print(" ");
+                System.out.print("/");
             }
             for(int j=1;j<=i*2-1;j++) {
-                if(i==no||j==1||j==(i*2-1)){
-                    System.out.print("*");
+                if(j==i||i==no||j==(i*2-1)){
+                    System.out.print("^");
                 }else {
-                    System.out.println();
+                    System.out.print("");
                 }
             }
+            System.out.println();
         }
     }
 }
