@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class AllPrimeNumber {
     public static boolean isPrime(int n) {
         if(n==2){
@@ -19,6 +21,9 @@ public class AllPrimeNumber {
         System.out.println();
     }
     public static void main(String[] args) {
-        PrimesInRange(20);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        int n = sc.nextInt();
+        PrimesInRange(n);
     }
 }
