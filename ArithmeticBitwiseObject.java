@@ -9,9 +9,17 @@ public class ArithmeticBitwiseObject {
         int b = sc.nextInt();
         ArithmeticObject arithmeticObject = new ArithmeticObject(a,b);
         System.out.println("Arithmetic Operations");
-        arithmeticObject.display();
+        arithmeticObject.addition();
+        arithmeticObject.sub();
+        arithmeticObject.multi();
+        arithmeticObject.division();
+        arithmeticObject.modulo();
         BitwiseObject bitwiseObject = new BitwiseObject(a,b);
         System.out.println("Bitwise Operation");
         bitwiseObject.display();
+        bitwiseObject.bitNOT();
+        bitwiseObject.bitOR();
+        bitwiseObject.bitAND();
+        bitwiseObject.bitXOR();
     }
 }

@@ -6,10 +6,19 @@ public class BitwiseObject {
         b=y;
     }
     void display(){
-        System.out.println("Bitwise OR is "+ (a|b));
-        System.out.println("Bitwise AND is "+ (a&b));
-        System.out.println("Bitwise XOR is "+ (a^b));
         System.out.println("Value of a is "+a);
+    }
+    void bitOR() {
+        System.out.println("Bitwise OR is "+ (a|b));
+    }
+    void bitAND() {
+        System.out.println("Bitwise AND is "+ (a&b));
+    }
+    void bitXOR() {
+        System.out.println("Bitwise XOR is "+ (a^b));
+    }
+    void bitNOT() {
         System.out.println("Bitwise NOT of a is "+ ~a);
     }
+
 }
