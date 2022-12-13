@@ -18,7 +18,7 @@ public class AllPrimeNumber {
         }
         System.out.println();
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         PrimesInRange(20);
     }
 }
